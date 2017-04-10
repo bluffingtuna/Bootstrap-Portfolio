@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang-"en-us">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootsrap-Portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<style>
+    	.navbar { 		
+    		padding: -0.5rem 1rem;
+    	}
+
+    	.navbar .navbar-brand {
+    		background-color: #4aaaa5;
+    		color: white;
+			font-size: 1.65em;
+			padding: .625em;
+			width: 30%;
+			text-align: center;
+			height: 3em;
+    	}
+
+    	.navbar .nav-item .nav-link {
+    		font-weight: bold;
+    	}
+
+    	.nav-item a {
+    		border-left: 1px solid #efefef;
+    	}
+
+    	#firstnoborder {
+    		border-left: 0 auto;
+    	}
+    	#about{
+    		color: #4aaaa5;
+			font-family: 'Georgia', Times, Times New Roman, serif;
+			padding-left: .8em;
+			margin-top: .8em;
+			font-size: 2em;
+			font-weight: bold;
+    	}
+    	#hr-section {
+    		width:85%;
+			height: 3px;
+			background-color: lightgrey;
+			border: 0;
+    	}
+
+    	.intro-section {
+    		color: #777777;
+			width: 60%;
+			background-color: #ffffff;
+			margin-top: 5em;
+			position: relative;
+			margin-bottom: 2em;
+			box-sizing: border-box;
+			border: 2px solid #dddddd;
+    	}
+    	#bio-pic {
+    		width: 80%;
+    	}
+		.bio-text {
+			padding: 1em;
+			line-height: 1.5;
+		}
+		.aside-section {
+			color: #4aaaa5;
+			background-color: #ffffff;
+			margin-top: 5em;
+			margin-bottom: 2em;
+			position: relative;
+			height: auto;
+			border: 1px solid lightgrey;
+		}
+		#hr-aside {
+			width: 80%;
+			height: 2px;
+			background-color: lightgrey;
+			border: 0;
+		}
+		.connect-pic-container {
+			padding-left: 2em;
+		}
+		.connect-pic {
+			width: 25%;
+			padding-bottom: 10px;
+		}
+		.connect-pic:hover {
+			outline: 5px solid pink;
+			cursor: pointer;
+		}
+		#connect {
+			padding: 1em;
+		}
+		body {
+			background-image: url(assets/images/naturalblack.png);
+		}
+		#no-padding {
+			padding-left: 0px;
+			padding-right: 0px;
+		}
+		#footer {
+			text-align: center;
+			background-color: #666666;
+			height: 60px;
+			padding-top: 1em;
+			border-top: 5pt solid #4aaaa5;
+		}
+		#wrap {
+			min-height: 100%;
+			height: auto !important;
+			margin: 0 auto -60px;
+		}
+		.nav-link:hover {
+			color: blue;
+			cursor: pointer;
+		}
+		.picture {
+			position: relative;
+			margin: 0 auto;
+			float: none;
+			width: 85%;
+		}
+		.pics {
+			width:100%;
+		}
+		.pictag {
+			position: absolute;
+			bottom:10px;
+			background-color: #4aaaa5;
+			color: white;
+			margin: 0 auto;
+			width: 100%;
+			height: 18%;
+			padding-top: 5px;
+			text-align: center;
+			font-size:1.25em;
+			padding-bottom: 10px;
+		}
+
+		.connect-pic:hover {
+			outline: 5px solid pink;
+			cursor: pointer;
+		}
+		.pics:hover {
+		  outline: 5px solid gray;
+		  cursor: pointer;
+		}
+
+		.picture:hover .pictag {
+		  color: blue;
+		  cursor: pointer;
+		}
+
+
+    </style>
+</head>
+
+<body>
+	<div id="wrap">
+	<div class="container-fluid" id="no-padding">
+		<div class="container">
+		<nav class="navbar navbar-toggleable-md navbar-light bg-faded">
+		  
+		  <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <a class="navbar-brand" src="index.html" href="#">Jake Park</a>
+		  
+		  <div class="collapse navbar-collapse" id="navbarNav">
+		    
+		    <ul class="nav navbar-nav ml-auto navbar-right">
+		      <li class="nav-item">
+		        <a class="nav-link" id="firstnoborder" href="contact.html">Contact</a>
+		      </li>
+		      <li class="nav-item ">
+		        <a class="nav-link" href="portfolio.html">Portfolio</a>
+		      </li>
+		      <li class="nav-item">
+		        <a class="nav-link" href="index.html">About</a>
+		      </li>
+		    </ul>
+  		  </div>
+		</nav>
+		<div class="container">
+		
+	</div>
+
+	<div class="container">
+		<div class="row">
+			<div class="col-md-7 intro-section">
+				<h1 id="about">Portfolio</h1>
+				<hr id="hr-section" side= "10px">
+				<br>
+				<div class="picture-container">
+					<div class="picture">
+						<a href="http://www.wowvr.org" target="_blank"><img class="pics" src="assets/images/d2.png" alt="waht"></a>
+						<div class="pictag">
+							WOWVR LOUNGE
+						</div>
+					</div>
+					<div class="picture">
+						<a href="https://github.com/bluffingtuna/morsedecoder" target="_blank"><img class="pics" src="assets/images/d3.jpg" alt="waht"></a>
+						<div class="pictag">
+							Ruby Morse Decoder
+						</div>
+					</div>
+					<div class="picture">
+						<a href="https://github.com/bluffingtuna/sublimegitbash" target="_blank"><img class="pics" src="assets/images/d7.png" alt="waht"></a>
+						<div class="pictag">
+							Add Sublime on git bash
+						</div>
+					</div>
+					<div class="picture">
+						<a href="https://github.com/bluffingtuna/sublimeonwindow" target="_blank"><img class="pics" src="assets/images/d6.png" alt="waht"></a>
+						<div class="pictag">
+							Add Sublime menu
+						</div>
+					</div>
+					<div class="picture">
+						<a href="https://github.com/bluffingtuna/sublimeonwindow" target="_blank"><img class="pics" src="assets/images/d6.png" alt="waht"></a>
+						<div class="pictag">
+							Add Sublime menu
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="col-md-4 offset-1">
+				<div class="aside-section">
+				<h2 id="connect">Connect with Me</h2>
+				<hr id="hr-aside">
+				<div class="connect-pic-container">
+					<a href="https://github.com/bluffingtuna" target="_blank"><img class="connect-pic" src="assets/images/github.png" alt="git"></a>
+					<a href="https://www.linkedin.com/in/jake-jin-park-48832751/" target="_blank"><img class="connect-pic" src="assets/images/linkenin.png" alt="linkenin"></a>
+					<a href="mailto:bluffingtuna@gmail.com" target="_blank"><img class="connect-pic" src="assets/images/gmail.png" alt="gmail"></a>
+				</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	</div>
+
+	<div id="footer">
+		<div class="container">
+			<p class="muted credit">
+				Copyright &copy; 2016 Jake Park
+			</p>
+		</div>
+
+	</div>
+
+
+<script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+
+</body>
+
+
+</html>
